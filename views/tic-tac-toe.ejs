@@ -1,0 +1,41 @@
+<body id="light">
+
+    <h1 class="Grader"> Are you smarter than a 5th Grader? </h1>
+    <form id="quiz" name="quiz">
+            <div class="ans">
+        <p class="question">Question 1: What is the plural of Moose? </p>
+        <input  type="radio" id="mc" name="question1" value="Meese"> Meese<br>
+        <input   type="radio" id="mc" name="question1" value="Moose">Moose<br>
+        <input  type="radio" id="mc" name="question1" value="Mise">Mise<br>
+    
+        <p class="question"> Question 2: What is the capital of New York?</p>
+        <input  type="radio" id="mc" name="question2" value="Manhattan">Manhattan<br>
+        <input  type="radio" id="mc" name="question2" value="Newark">Newark<br>
+        <input  type="radio" id="mc" name="question2" value="Albany">Albany<br>
+       
+        <p class="question">Question 3: What galaxy is Earth located in?</p>
+        <input type="radio" id="mc" name="question3" value="MilkyWay">The Milky Way<br>
+        <input  type="radio" id="mc" name="question3" value="Solar">Solar System<br>
+        <input type="radio" id="mc" name="question3" value="CartWheel">CartWheel Galaxy<br>
+       
+        <p class="question"> Question 4: What number is the Roman numeral XVI?</p>
+        <input  type="radio" id="mc" name="question4" value="Twentysix">26<br>
+        <input type="radio" id="mc" name="question4" value="Sixteen">16<br>
+        <input  type="radio" id="mc" name="question4" value="Thousand">1051<br>
+    
+        <p class="question"> Question 5: How many states are there in United States?</p>
+        <input  type="radio" id="mc" name="question5" value="Fiftyone">51<br>
+        <input type="radio" id="mc" name="question5" value="FortyNine">49<br>
+        <input  type="radio" id="mc" name="question5" value="Fifty">50<br>
+        <input id="button" type="button" value="Submit!" onclick="check();">
+    
+    </form>
+    
+    <div id="afterSubmit">
+        <p id="correctAnswer"></p>
+        <p id="message"></p>
+    </div>
+    
+    <button id="restart" onclick="myFunction()">Take The Quiz Again</button>
+    </div>
+    </body>
