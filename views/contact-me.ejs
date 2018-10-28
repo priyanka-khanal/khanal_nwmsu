@@ -43,8 +43,16 @@
                     <table>
                         <tr>
                             <td>
-                                First name: <input type="text" name="fname"><br>
-                                Last name:  <input type="text" name="lname"><br>
+                                First name: <input type="text" name="fname" required><br>
+                                <div class="alert alert-danger  fade in" id="alertname">
+                                    <a href="#" class="close " id="alertnamedismiss" class="close">×</a>
+                                    <strong>Field cannot be empty</strong>
+                                  </div>
+                                Last name:  <input type="text" name="lname" required><br>
+                                <div class="alert alert-danger  fade in" id="alertname">
+                                    <a href="#" class="close " id="alertnamedismiss" class="close">×</a>
+                                    <strong>Field cannot be empty</strong>
+                                  </div>
                             </td>
                             
                     <td>

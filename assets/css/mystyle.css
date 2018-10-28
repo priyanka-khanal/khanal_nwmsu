@@ -1,0 +1,102 @@
+div.navBar
+{
+    background-color: red;
+    background-blend-mode: hard-light;
+    text-align: left;
+
+}
+img.img-circle
+{
+    align-content: fill;
+    border-radius:100%;
+    padding: 10px;
+    width: 350px;
+    Height: 350px;
+    display: block;
+   
+}
+div.video, iframe 
+{
+    margin: 0 auto;
+    display:block;
+}
+h1.Introduction
+{
+    text-align: left;
+    color: brown ;
+    font-size: 50px;
+    font-weight: bold;
+  
+}
+h1.Grader
+{
+    text-align: center;
+    color: yellow;
+    font-size: 45px;
+    font-weight:bold;
+}
+p.question
+{
+    background-color:whitesmoke;
+    color: blueviolet ;
+    font-size: 25px;
+}
+div.ans
+{
+    color: white ;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+#contact
+{
+    text-align: center;
+    color:black;
+    Font-weight: bold;
+
+}
+
+ #intro
+ {
+     display:inline-block;
+     font-size: 30px;
+
+ }
+ #sizeOfBox{
+     width: 200px;
+     height: 100px;
+ }
+ #after_submit {
+	visibility: hidden;
+}
+#button
+{
+  color:green ;
+  font-size: 30px;
+}
+ 
+#restart
+{
+    color:red ;
+    font-size: 30px;
+}
+#light{
+    background-image: url("lightbulb.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+body{
+    background-image: url("backgroundImg.jpg");
+    background-position: center;
+    background-size: auto;
+    
+
+}
+h1{
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+    text-emphasis: filled;
+}
